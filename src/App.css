@@ -1,0 +1,46 @@
+/* 🌌 ESTILO GENERAL */
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+/* 🔝 NAVBAR */
+.c-menu {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.c-menu a {
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  padding: 0.6em 1.4em;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+}
+
+.c-menu a:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.7);
+}
+
+/* 🔹 Enlace activo */
+.c-menu .activo {
+  background: linear-gradient(90deg, #00ffcc, #00aaff);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.9);
+}
+
+/* 🪩 Ajustes del contenedor principal */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
